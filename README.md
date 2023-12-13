@@ -3,6 +3,7 @@
 ## Brief Description :briefcase:
 
 This project is a web application created to serve the purpose of assisting adults and children who have been diagnosed with ADHD. Its goal is to present them with an aid that helps them improve their character traits and routines to live a more organised, efficient, and satisfying life.
+Here is the link to the landing page: https://Shajoshed20.github.io/Portfolio_NeuroNutrire/front_end
 
 This projec is created in fulfillment of the ALX Software Engineering Certificate/ Curriculum.
 
