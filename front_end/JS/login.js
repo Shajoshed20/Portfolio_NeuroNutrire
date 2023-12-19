@@ -11,3 +11,9 @@ document.getElementById('LoginBtn').addEventListener('click', function () {
     }
 
 });
+
+/* Login Page to connect the Login Button in
+    Index to the Sign In Page */
+document.getElementById('login').addEventListener('click', function () {
+    window.location.href = 'signin_page.html';
+});
