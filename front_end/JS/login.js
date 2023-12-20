@@ -1,17 +1,15 @@
 //Login Button EventListener
-function sigin_login(){
-    var username = document.getElementById("user").value;
-    var password = document.getElementById("password").value;
+function sigin_login() {
+  var username = document.getElementById("user").value;
+  var password = document.getElementById("password").value;
 
-    /*Check username and password*/
-    if (username == "admin" && password == "admin"){
-        alert ("enter");
-    }
-    else{
-        alert("Wrong Username or Password. Please try again.");
-    }
-
-});
+  /*Check username and password*/
+  if (username == "admin" && password == "admin") {
+    alert("enter");
+  } else {
+    alert("Wrong Username or Password! Please try again.");
+  }
+}
 
 /* Login Page to connect the Login Button in
     Index to the Sign In Page 
