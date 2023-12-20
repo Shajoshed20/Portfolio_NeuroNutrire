@@ -1,5 +1,5 @@
 //Login Button EventListener
-document.getElementById("LoginBtn").addEventListener("click", function(){
+function sigin_login() {
     var username = document.getElementById('user').value;
     var password = document.getElementById('password').value;
 
