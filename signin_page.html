@@ -50,11 +50,11 @@
                   </div>
               <div class="col-md-6 text-center">
                 <div class="login-form">
-                    <form id="login_form" method="post" name="mylogin_form" onsubmit="return singin_login()">
+                    <form id="login_form" method="post" name="mylogin_form" onsubmit="return false">
                         <p class="login-title">A RETURNING MEMBER?</p>
                         <input id="user" type="text" placeholder="Enter Username..."><br>
                         <input id="password" type="password" placeholder="Enter Password..."><br>
-                        <button type="submit">Login</button>
+                        <button type="submit" onclick="sigin_login()">Login</button>
                         <label id="rmb">
                             <input type="checkbox" checked="checked" name="remember">Remember me
                         </label>
