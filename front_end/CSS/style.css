@@ -50,15 +50,6 @@ body {
   border-radius: 30px;
 }
 
-/* .allbtns {
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  padding: 20px;
-  margin: 20px;
-} */
-
 .navbutton {
   display: flex;
   width: 100%;
