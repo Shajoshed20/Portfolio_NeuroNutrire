@@ -6,7 +6,9 @@ function sigin_login() {
   /*Check username and password*/
   if (username == "admin" && password == "admin") {
     alert("enter");
-    window.location.href = "https://portfolio-neuro-nutrire.vercel.app/signup.html";
+    window.location.href = "signup.html";
+
+    return false;
   } else {
     alert("Wrong Username or Password! Please try again.");
   }
