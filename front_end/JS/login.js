@@ -6,6 +6,7 @@ function sigin_login() {
   /*Check username and password*/
   if (username == "admin" && password == "admin") {
     alert("enter");
+    window.location.href = "dasboard.html";
   } else {
     alert("Wrong Username or Password! Please try again.");
   }
