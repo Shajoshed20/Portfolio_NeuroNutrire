@@ -12,7 +12,7 @@ function symptomsQuestion() {
         const segmentQuestions = window['${questSegments[i].replace(/\s/g, '')}Questions'];
         if (segmentQuestions && Array.isArray(segmentQuestions)) {
             const segAnswers = askQuestion(segmentQuestions);
-            console.log('${questSegments[i]} Answers:', segAnswers);
+            console.log(`${questSegments[i]} Answers:`, segAnswers);
         }
     }
 }
