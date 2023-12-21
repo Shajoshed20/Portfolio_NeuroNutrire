@@ -82,3 +82,8 @@ const Segment4 = [
     { question: "Difficulty regulating emotions, leading to mood swings."},
     { question: "Struggles with self-esteem due to academic or interpersonal difficulties."}
 ];
+
+/*Function to call page once it loads*/
+window.onload = function () {
+    showProfileQuestions();
+};
