@@ -60,25 +60,25 @@ const Segment1 = [
 ];
 
 const Segment2 = [
-    { question: ""},
-    { question: ""},
-    { question: ""},
-    { question: ""},
-    { question: ""}
+    { question: "Appears unable to sit still, fidgets, or taps hands and feet"},
+    { question: "Talks excessively and has difficulty waiting for a turn in conversations."},
+    { question: "Acts without thinking about the consequences."},
+    { question: "Interrupts or intrudes on conversations or games"},
+    { question: "Finds it challenging to engage in quiet activities without restlessness."}
 ];
 
 const Segment3 = [
-    { question: },
-    { question: },
-    { question: },
-    { question: },
-    { question: }
+    { question: "Trouble following through on instructions or completing tasks"},
+    { question: "Poor time management, often running late or underestimating time needed for tasks."},
+    { question: "Difficulty planning and organizing tasks and activities."},
+    { question: "Tends to delay tasks until the last minute."},
+    { question: "Finds it challenging to shift attention from one activity to another"}
 ];
 
 const Segment4 = [
-    { question: },
-    { question: },
-    { question: },
-    { question: },
-    { question: }
+    { question: "Difficulty in academic settings, such as completing assignments and staying focused in class."},
+    { question: "Challenges in the workplace, including time management and organization."},
+    { question: "Challenges in maintaining relationships due to forgetfulness or impulsivity."},
+    { question: "Difficulty regulating emotions, leading to mood swings."},
+    { question: "Struggles with self-esteem due to academic or interpersonal difficulties."}
 ];
