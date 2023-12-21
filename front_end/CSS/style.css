@@ -212,6 +212,17 @@ body {
   transform: translateY(0px);
 }
 
+/*-------------------About Us Section--------------------*/
+
+#about-us {
+  background: #ebe9e9;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about-title {
+  margin-top: 8%;
+}
 #btn4 {
   background-color: pink;
   color: black;
