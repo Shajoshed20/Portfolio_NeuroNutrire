@@ -9,7 +9,7 @@ function sigin_login() {
 
     return false;
   } else {
-    alert("Wrong Username or Password! Please try again.");
+    alert("Wrong Username or Password! Please try again");
   }
 }
 
