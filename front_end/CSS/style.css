@@ -244,13 +244,18 @@ body {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 240px;
+  width: 105px;
   height: 100vh;
-  padding: 0 1.7rem;
+  padding: 0 1.5rem;
   color: #f0f8ff;
   overflow: hidden;
   transition: all 0.5s linear;
   background: #2d7979;
+}
+
+.sidebar:hover {
+  width: 250px;
+  transition: 0.5s;
 }
 
 .logo {
@@ -283,5 +288,20 @@ body {
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1.5rem;
+}
+
+.menu a span {
+  overflow: hidden;
+}
+
+.menu a i {
+  font-size: 1.2rem;
+}
+
+.logout {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
