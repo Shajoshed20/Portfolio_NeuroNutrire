@@ -6,16 +6,16 @@ function symptomsQuestion() {
         "Inattention",
         "Daily Life Challenges"
     ];
-
     /*function to loop through questions and user answer*/
     for (let i = 0; i < questSegments.length; i++) {
-        const segmentQuestions = window['${questSegments[i].replace(/\s/g, '')}Questions'];
+        const segmentQuestions = window[`${questSegments[i].replace(/\s/g, '')}Questions`];
         if (segmentQuestions && Array.isArray(segmentQuestions)) {
             const segAnswers = askQuestion(segmentQuestions);
             console.log(`${questSegments[i]} Answers:`, segAnswers);
         }
     }
 }
+
 
 /*Functions to ask question for given segments*/
 function askQuestion(questions) {
