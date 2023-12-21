@@ -1,10 +1,10 @@
 /*A JavaScript to provide basic symptoms diagnostics for user*/
 function symptomsQuestion() {
     const questSegments = [
-        "Details to Attention",
-        "Hyperactivity",
-        "Inattention",
-        "Daily Life Challenges"
+        "Segment1",
+        "Segment2",
+        "Segment3",
+        "Segment4"
     ];
     /*function to loop through questions and user answer*/
     for (let i = 0; i < questSegments.length; i++) {
