@@ -85,5 +85,5 @@ const Segment4 = [
 
 /*Function to call page once it loads*/
 window.onload = function () {
-    showProfileQuestions();
+    symptomsQuestion();
 };
